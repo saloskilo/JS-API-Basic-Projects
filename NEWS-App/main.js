@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const fetchNews = async () => {
     const apiKey = '61116340b4b54c769d6d62c1c3f928ee';
-    const url = `https://newsapi.org/v2/everything?q=apple&from=2024-06-13&to=2024-06-13&sortBy=popularity&apiKey=61116340b4b54c769d6d62c1c3f928ee`;
+    const url = `https://newsapi.org/v2/everything?q=bitcoin&apiKey=61116340b4b54c769d6d62c1c3f928ee`;
   
     try {
       const response = await fetch(url);
